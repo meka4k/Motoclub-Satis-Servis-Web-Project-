@@ -1,0 +1,27 @@
+﻿@model OtoServis.Entities.Models.Brand
+
+@{
+    ViewData["Title"] = "Marka Sil";
+}
+
+<h1>Marka Sil</h1>
+<hr />
+<h3>Silmek istediğinize emin misiniz?</h3>
+<div>
+    <h4>Brand</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a class="btn btn-outline-dark" asp-action="Index">Rol Listesine Dön</a>
+    </form>
+</div>

@@ -1,0 +1,91 @@
+﻿@model OtoServis.Entities.Models.Vehicle
+
+@{
+	ViewData["Title"] = "Araç Bilgi Düzenle";
+}
+
+<h1>Araç Bilgi Düzenle</h1>
+
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Edit" enctype="multipart/form-data">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<input type="hidden" asp-for="Id" />
+			<input type="hidden" asp-for="Image1" />
+			<input type="hidden" asp-for="Image2" />
+			<input type="hidden" asp-for="Image3" />
+			<div class="form-group">
+				<label asp-for="BrandId" class="control-label"></label>
+				<select asp-for="BrandId" class="form-select" asp-items="ViewBag.BrandId"></select>
+				<span asp-validation-for="BrandId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Color" class="control-label"></label>
+				<input asp-for="Color" class="form-control" />
+				<span asp-validation-for="Color" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Price" class="control-label"></label>
+				<input asp-for="Price" class="form-control" />
+				<span asp-validation-for="Price" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="BrandName" class="control-label"></label>
+				<input asp-for="BrandName" class="form-control" />
+				<span asp-validation-for="BrandName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="VehicleType" class="control-label"></label>
+				<input asp-for="VehicleType" class="form-control" />
+				<span asp-validation-for="VehicleType" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Year" class="control-label"></label>
+				<input asp-for="Year" class="form-control" />
+				<span asp-validation-for="Year" class="text-danger"></span>
+			</div>
+			<div class="form-group form-check">
+				<label class="form-check-label">
+					<input class="form-check-input" asp-for="IsItOnSale" /> @Html.DisplayNameFor(model => model.IsItOnSale)
+				</label>
+			</div>
+			<div class="form-group form-check">
+				<label class="form-check-label">
+					<input class="form-check-input" asp-for="HomePage" /> @Html.DisplayNameFor(model => model.HomePage)
+				</label>
+			</div>
+			<div class="form-group">
+				<label asp-for="Notes" class="control-label"></label>
+				<input asp-for="Notes" class="form-control" />
+				<span asp-validation-for="Notes" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Image1" class="control-label">Image 1</label>
+				<input asp-for="Image1" class="form-control" type="file" />
+				<span asp-validation-for="Image1" class="text-danger"></span>
+				<img src="/Img/Cars/@Model.Image1" alt="görsel" height="50">
+			</div>
+			<div class="form-group">
+				<label asp-for="Image2" class="control-label">Image 2</label>
+				<input asp-for="Image2" class="form-control" type="file" />
+				<span asp-validation-for="Image2" class="text-danger"></span>
+				<img src="/Img/Cars/@Model.Image2" alt="görsel" height="50">
+			</div>
+			<div class="form-group">
+				<label asp-for="Image3" class="control-label">Image 3</label>
+				<input asp-for="Image3" class="form-control" type="file" />
+				<span asp-validation-for="Image3" class="text-danger"></span>
+				<img src="/Img/Cars/@Model.Image3" alt="görsel" height="50">
+			</div>
+			<div class="form-group mt-3">
+				<input type="submit" value="Güncelle" class="btn btn-warning" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a class="btn btn-outline-dark mt-3" asp-action="Index">Marka Listesine Dön</a>
+</div>
+

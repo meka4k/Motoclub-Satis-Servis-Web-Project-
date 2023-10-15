@@ -1,0 +1,86 @@
+﻿@model IEnumerable<OtoServis.Entities.Models.Vehicle>
+
+@{
+	ViewData["Title"] = "Araçlar";
+}
+
+<h1>Araçlar</h1>
+<hr />
+
+<p>
+	<a class="btn btn-outline-primary" asp-action="Create">Yeni Araç Ekle</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Brand)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Color)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Price)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.BrandName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.VehicleType)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Year)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.IsItOnSale)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.HomePage)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Image1)
+			</th>
+			
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Brand.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Color)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Price)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.BrandName)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.VehicleType)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Year)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.IsItOnSale)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.HomePage)
+				</td>
+				<td>
+					<img src="/Img/Cars/@item.Image1" alt="görsel" height="50">
+				</td>
+				
+				<td>
+					<a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Güncelle</a> |
+					<a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

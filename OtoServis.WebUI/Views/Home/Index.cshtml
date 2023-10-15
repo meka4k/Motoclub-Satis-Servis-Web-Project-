@@ -1,0 +1,79 @@
+﻿@model HomepageViewModel
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="tr">
+
+@*
+	<div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner width=100"  >
+			@foreach (var item in Model.Sliders)
+			{
+				<div class="carousel-item @(item==Model.Sliders.FirstOrDefault()?"active":"")">
+					<img class="d-block w-100" src="/Img/Slider/@item.Image" alt="First slide">
+				</div>
+
+			
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Önceki</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Sonraki</span>
+			</a>
+			}
+			</div>
+	</div>
+	*@
+	<hr />
+	</div>
+
+
+	<style>
+		h1 {
+			text-align: center;
+		}
+	</style>
+
+
+	<h1>Öne Çıkanlar</h1>
+	<hr />
+	<!-- Section-->
+	<section class="py-5">
+		<div class="container px-4 px-lg-5 mt-5">
+			<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+				@foreach (var item in Model.Vehicles)
+				{
+					<div class="col mb-5">
+						<div class="card h-100">
+							<!-- Product image-->
+							<img class="card-img-top" src="/Img/Cars/@item.Image1" alt="...">
+							<!-- Product details-->
+							<div class="card-body p-4">
+								<div class="text-center">
+									<!-- Product name-->
+									<h5 class="fw-bolder">@item.Brand.Name @item.BrandName @item.VehicleType</h5>
+									<!-- Product price-->
+								@item.Price ₺
+								</div>
+							</div>
+							<!-- Product actions-->
+							<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+								<div class="text-center"><a class="btn btn-outline-dark mt-auto" href="/CarDetails/Index/@item.Id">Detaylar</a></div>
+							</div>
+						</div>
+					</div>
+				}
+
+			</div>
+		</div>
+	</section>
+
+
+
+</html>
+

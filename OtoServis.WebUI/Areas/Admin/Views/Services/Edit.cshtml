@@ -1,0 +1,85 @@
+﻿@model OtoServis.Entities.Models.Service
+
+@{
+    ViewData["Title"] = "Servisi Güncelle";
+}
+
+<h1>Servisi Güncelle</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ServiceArrivalDate" class="control-label"></label>
+                <input asp-for="ServiceArrivalDate" class="form-control" />
+                <span asp-validation-for="ServiceArrivalDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleProblem" class="control-label"></label>
+                <input asp-for="VehicleProblem" class="form-control" />
+                <span asp-validation-for="VehicleProblem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServicePrice" class="control-label"></label>
+                <input asp-for="ServicePrice" class="form-control" />
+                <span asp-validation-for="ServicePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceOutDate" class="control-label"></label>
+                <input asp-for="ServiceOutDate" class="form-control" />
+                <span asp-validation-for="ServiceOutDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Transactions" class="control-label"></label>
+                <input asp-for="Transactions" class="form-control" />
+                <span asp-validation-for="Transactions" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsUnderWarranty" /> @Html.DisplayNameFor(model => model.IsUnderWarranty)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehiclePlate" class="control-label"></label>
+                <input asp-for="VehiclePlate" class="form-control" />
+                <span asp-validation-for="VehiclePlate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleBrand" class="control-label"></label>
+                <input asp-for="VehicleBrand" class="form-control" />
+                <span asp-validation-for="VehicleBrand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleModel" class="control-label"></label>
+                <input asp-for="VehicleModel" class="form-control" />
+                <span asp-validation-for="VehicleModel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleType" class="control-label"></label>
+                <input asp-for="VehicleType" class="form-control" />
+                <span asp-validation-for="VehicleType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChassisNo" class="control-label"></label>
+                <input asp-for="ChassisNo" class="form-control" />
+                <span asp-validation-for="ChassisNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Güncelle" class="btn btn-warning" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-dark mt-3" asp-action="Index">Marka Listesine Dön</a>
+</div>
+

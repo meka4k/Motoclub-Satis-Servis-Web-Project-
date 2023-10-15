@@ -1,37 +1,38 @@
 # Motoclub-Satis-Servis-Web-Project-
 Motoclub Sales/Service  with .NetCore 7 
 
-![1](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/56de6379-e7ad-4eb1-bffb-44f315e3e22e)
+![1](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/3632bfc5-1639-42ec-9544-51961d4ac2cf)
 
-![2](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/aa8c8574-2ee3-4e81-bd14-8a2ffbfaa173)
+![2](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/37d16ccb-2b77-4401-bbe3-ad5d7916d38d)
 
-![3](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/8b1580b6-70bb-4223-a99e-16874ecc5083)
+![3](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/b49deb92-0a7f-4ff5-8974-510bee09e7b4)
 
-![4](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/9f626994-76dc-4406-a477-64bd460c948c)
+![4](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/193e614a-503a-46c1-a6f7-3894b92cf6fe)
 
-![5](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/e9a6e081-e286-444a-9740-cdaa4ff79e85)
+![5](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/1e5e2937-d787-4157-84cf-8a09bc6c0861)
 
-![6](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/e7351f2d-c71a-4111-b8c1-18863be91914)
+![6](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/4a6ce343-2356-4392-a6ea-66d33ceb39c6)
 
-![7](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/b3df9857-e4be-4761-a9ec-c119ec117b77)
+![7](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/116d8fcc-8009-444b-aa55-b064ed9f3637)
 
-![8](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/5b426fbd-a5a1-4501-a1ad-a08beebad198)
+![8](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/67c80066-761d-4178-bd55-b6c01a980282)
 
-![9](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/ec418f7c-13c1-40f6-b0a0-b585107065b7)
+![9](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/8011ea54-f2dd-4bbe-ba83-2ecddda25ddc)
 
-![10](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/c540f826-8473-4729-9679-39c63c12af43)
+![10](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/10443202-3b21-405c-bf6a-2fc96bc3a926)
 
-![11](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/46827c37-4bde-466b-9a9f-0e1180036771)
+![11](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/25947411-e07d-4159-9c9e-4a7025d62a3b)
 
-![12](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/c7da2ff3-fb90-4f60-9e50-86b9037dabe6)
+![12](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/aecd58f4-d3ba-4c3b-99f1-d078cc5bbd67)
 
-![13](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/77a62c60-63db-487d-9c8d-b43921fbc72a)
+![13](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/8dfb2c69-b29a-4c7f-8577-e707b775a6f8)
 
-![14](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/0428ed6c-bfd3-42a8-be37-10be47779db3)
+![14](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/1b129f24-d2a7-4353-97ef-4ddfc02a3e22)
 
-![15](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/73074e86-f6ff-4b1c-9f12-8d7c0e0d20ea)
+![15](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/29c4a35a-29ad-434d-8b54-416cd88bcf75)
 
-![16](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/e95663dc-2d30-47fb-9031-43ea33642343)
+![16](https://github.com/meka4k/Motoclub-Satis-Servis-Web-Project-/assets/60526501/a112e381-6100-4740-aac0-cbcb46e58f06)
+
 
 
 

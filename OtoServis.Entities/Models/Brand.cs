@@ -10,7 +10,7 @@ namespace OtoServis.Entities.Models
     public class Brand : IEntity
     {
         public int Id { get; set; }
-        [StringLength(50), Required(ErrorMessage = "Bu Alan Boş Bırakılamaz.")]
+        [StringLength(50),Display(Name="Marka"), Required(ErrorMessage = "Bu Alan Boş Bırakılamaz.")]
         public string Name { get; set; }
 
     }
